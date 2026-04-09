@@ -3,15 +3,13 @@
 > Stop blaming, start understanding.
 
 <div align="center">
-  <img src="https://via.placeholder.com/300x300?text=GitUncover" alt="GitUncover" width="300" height="300">
+  <img src="https://trae-api-cn.mchost.guru/api/ide/v1/text_to_image?prompt=GitUncover%20logo%20with%20magnifying%20glass%20and%20git%20icon&image_size=square" alt="GitUncover" width="300" height="300">
   <br>
   <br>
   <a href="https://github.com/Hugeeeeeeee/GitUncover/stargazers"><img src="https://img.shields.io/github/stars/Hugeeeeeeee/GitUncover" alt="GitHub stars"></a>
   <a href="https://github.com/Hugeeeeeeee/GitUncover/issues"><img src="https://img.shields.io/github/issues/Hugeeeeeeee/GitUncover" alt="GitHub issues"></a>
   <a href="https://github.com/Hugeeeeeeee/GitUncover/blob/main/LICENSE"><img src="https://img.shields.io/github/license/Hugeeeeeeee/GitUncover" alt="GitHub license"></a>
   <a href="https://github.com/Hugeeeeeeee/GitUncover/forks"><img src="https://img.shields.io/github/forks/Hugeeeeeeee/GitUncover" alt="GitHub forks"></a>
-  <a href="https://www.npmjs.com/package/gituncover"><img src="https://img.shields.io/npm/v/gituncover" alt="NPM version"></a>
-  <a href="https://nodejs.org/en/about/releases/"><img src="https://img.shields.io/node/v/gituncover" alt="Node.js version"></a>
 </div>
 
 ## 🌟 Core Concept
@@ -239,7 +237,7 @@ Check the [IDE Integrations](https://github.com/Hugeeeeeeee/GitUncover/tree/main
 ## 🎨 Demo
 
 <div align="center">
-  <img src="https://via.placeholder.com/600x338?text=GitUncover+Demo" alt="GitUncover Demo" width="600">
+  <img src="https://trae-api-cn.mchost.guru/api/ide/v1/text_to_image?prompt=GitUncover%20demo%20interface%20with%20code%20analysis%20results&image_size=landscape_16_9" alt="GitUncover Demo" width="600">
 </div>
 
 ## 🤝 Contributing

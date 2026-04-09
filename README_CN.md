@@ -2,10 +2,13 @@
 
 > 停止指责，开始理解。
 
+<div align="right">
+  <a href="README.md" style="display: inline-block; padding: 8px 16px; background-color: #f5f5f5; border: 1px solid #ddd; border-radius: 4px; text-decoration: none; color: #333; font-size: 16px; font-weight: 500;">English</a>
+</div>
+
 <div align="center">
-  <img src="https://via.placeholder.com/300x300?text=GitUncover" alt="GitUncover" width="300" height="300">
-  <br>
-  <br>
+  <h1 style="font-size: 48px; margin: 0;">🕵️ GitUncover</h1>
+  <p style="font-size: 20px; color: #666; margin: 10px 0 30px 0;">停止指责，开始理解。</p>
   <a href="https://github.com/Hugeeeeeeee/GitUncover/stargazers"><img src="https://img.shields.io/github/stars/Hugeeeeeeee/GitUncover" alt="GitHub stars"></a>
   <a href="https://github.com/Hugeeeeeeee/GitUncover/issues"><img src="https://img.shields.io/github/issues/Hugeeeeeeee/GitUncover" alt="GitHub issues"></a>
   <a href="https://github.com/Hugeeeeeeee/GitUncover/blob/main/LICENSE"><img src="https://img.shields.io/github/license/Hugeeeeeeee/GitUncover" alt="GitHub license"></a>
@@ -141,7 +144,33 @@ gituncover config --reset # 重置为默认配置
 ## 🎨 演示
 
 <div align="center">
-  <img src="https://via.placeholder.com/600x338?text=GitUncover+Demo" alt="GitUncover演示" width="600">
+  <div style="background-color: #f5f5f5; border-radius: 8px; padding: 30px; max-width: 600px; margin: 0 auto;">
+    <h3 style="color: #3498db; margin-top: 0;">🕵️ GitUncover 分析演示</h3>
+    <div style="background-color: #2d2d2d; color: #f8f8f2; padding: 15px; border-radius: 4px; font-family: 'Courier New', monospace; text-align: left; margin: 20px 0;">
+      <pre style="margin: 0;">分析的代码:
+function calculateTotal(prices) {
+  let total = 0;
+  for (let i = 0; i < prices.length; i++) {
+    total += prices[i];
+  }
+  return total;
+}
+
+Blame 信息:
+Line 1: John Doe (2026-04-01)
+Commit: abc1234
+Message: Add calculateTotal function
+
+AI 分析:
+这个函数计算价格数组的总和。
+它使用简单的 for 循环遍历数组。
+
+建议:
+- 考虑使用 Array.reduce() 使代码更简洁
+- 在循环中缓存 array.length 以提高性能</pre>
+    </div>
+    <p style="color: #666; margin-bottom: 0;">具有历史上下文和 AI 洞察的交互式分析</p>
+  </div>
 </div>
 
 ## 🤝 贡献

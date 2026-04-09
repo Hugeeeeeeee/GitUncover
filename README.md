@@ -2,10 +2,13 @@
 
 > Stop blaming, start understanding.
 
+<div align="right">
+  <a href="README_CN.md" style="display: inline-block; padding: 8px 16px; background-color: #f5f5f5; border: 1px solid #ddd; border-radius: 4px; text-decoration: none; color: #333; font-size: 16px; font-weight: 500;">中文</a>
+</div>
+
 <div align="center">
-  <img src="https://trae-api-cn.mchost.guru/api/ide/v1/text_to_image?prompt=GitUncover%20logo%20with%20magnifying%20glass%20and%20git%20icon&image_size=square" alt="GitUncover" width="300" height="300">
-  <br>
-  <br>
+  <h1 style="font-size: 48px; margin: 0;">🕵️ GitUncover</h1>
+  <p style="font-size: 20px; color: #666; margin: 10px 0 30px 0;">Stop blaming, start understanding.</p>
   <a href="https://github.com/Hugeeeeeeee/GitUncover/stargazers"><img src="https://img.shields.io/github/stars/Hugeeeeeeee/GitUncover" alt="GitHub stars"></a>
   <a href="https://github.com/Hugeeeeeeee/GitUncover/issues"><img src="https://img.shields.io/github/issues/Hugeeeeeeee/GitUncover" alt="GitHub issues"></a>
   <a href="https://github.com/Hugeeeeeeee/GitUncover/blob/main/LICENSE"><img src="https://img.shields.io/github/license/Hugeeeeeeee/GitUncover" alt="GitHub license"></a>
@@ -237,7 +240,33 @@ Check the [IDE Integrations](https://github.com/Hugeeeeeeee/GitUncover/tree/main
 ## 🎨 Demo
 
 <div align="center">
-  <img src="https://trae-api-cn.mchost.guru/api/ide/v1/text_to_image?prompt=GitUncover%20demo%20interface%20with%20code%20analysis%20results&image_size=landscape_16_9" alt="GitUncover Demo" width="600">
+  <div style="background-color: #f5f5f5; border-radius: 8px; padding: 30px; max-width: 600px; margin: 0 auto;">
+    <h3 style="color: #3498db; margin-top: 0;">🕵️ GitUncover Analysis Demo</h3>
+    <div style="background-color: #2d2d2d; color: #f8f8f2; padding: 15px; border-radius: 4px; font-family: 'Courier New', monospace; text-align: left; margin: 20px 0;">
+      <pre style="margin: 0;">ANALYZED CODE:
+function calculateTotal(prices) {
+  let total = 0;
+  for (let i = 0; i < prices.length; i++) {
+    total += prices[i];
+  }
+  return total;
+}
+
+BLAME INFO:
+Line 1: John Doe (2026-04-01)
+Commit: abc1234
+Message: Add calculateTotal function
+
+AI ANALYSIS:
+This function calculates the total sum of an array of prices.
+It uses a simple for loop to iterate through the array.
+
+RECOMMENDATIONS:
+- Consider using Array.reduce() for more concise code
+- Cache array.length in loops for better performance</pre>
+    </div>
+    <p style="color: #666; margin-bottom: 0;">Interactive analysis with historical context and AI insights</p>
+  </div>
 </div>
 
 ## 🤝 Contributing

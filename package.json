@@ -1,0 +1,29 @@
+{
+  "name": "gituncover",
+  "version": "0.1.0",
+  "description": "AI-powered git blame with context",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js",
+    "build": "echo \"Building...\""
+  },
+  "keywords": [
+    "git",
+    "blame",
+    "code-analysis",
+    "ai",
+    "vscode-extension"
+  ],
+  "author": "Your Name",
+  "license": "MIT",
+  "dependencies": {
+    "commander": "^12.0.0",
+    "simple-git": "^3.24.0",
+    "axios": "^1.6.0",
+    "openai": "^4.0.0"
+  },
+  "bin": {
+    "gituncover": "bin/gituncover.js"
+  }
+}
